@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    background-color:pink;
 }
 .user{
     width: fit-content;
@@ -26,13 +27,17 @@ transition: transform 1s box-shadow 1s;
     transform: rotateX(50px);
     opacity: 1;
     transition: transform 1s, opacity 1s;
+    background-color: #fff;
 }
 .info h1{
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 500;
+    background-color: #fff;
 }
 .info p{
     line-height: 26px;
+    background-color: #fff;
+    line-height: 2;
 }
 .info a{
     background: #4f40ff;
